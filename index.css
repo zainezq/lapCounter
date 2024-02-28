@@ -1,0 +1,60 @@
+body {
+    background-image: url("running.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height:100vh;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Set cursor to pointer by default */
+    transition: background-color 0.3s; /* Add transition for smoother hover effect */
+}
+
+button:hover, #increment-btn:hover, #save-btn:hover, #reset-btn:hover {
+    background-color: #3498db; /* Change background color on hover */
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#reset-btn {
+    background: red;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
