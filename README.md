@@ -1,4 +1,4 @@
-#Lap Counter
+# Lap Counter
 
 Quick start:
 
